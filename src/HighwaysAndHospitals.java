@@ -16,6 +16,7 @@ public class HighwaysAndHospitals {
      */
     public static long cost(int n, int hospitalCost, int highwayCost, int cities[][]) {
         // test edit for commit
+        // try another commit
         return 0;
     }
 }
