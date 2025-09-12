@@ -22,7 +22,7 @@ public class HighwaysAndHospitals {
         int[] costs = new int[cities.length];
         // Edge case for when the hospitals are less expensive than highways, so you build a hospital in each place.
         if (highwayCost > hospitalCost) {
-            return total;
+            return ((long) hospitalCost * n);
         }
 
         for (int i = 0; i < cities.length; i++) {
@@ -37,6 +37,8 @@ public class HighwaysAndHospitals {
                 finalCost = costs[i];
             }
         }
+
+
 
 
         return -1;
