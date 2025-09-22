@@ -15,6 +15,7 @@ public class HighwaysAndHospitals {
         // Make it n + 1 so that there isn't a city at 0.
         int[] roots = new int[n + 1];
 
+        // Set them all to -1 because they each inherently have a weight of one (themself).
         for (int i = 1; i <= n; i++) {
             roots[i] = -1;
         }
